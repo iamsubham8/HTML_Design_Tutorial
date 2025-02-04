@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* font-family: sans-serif; */
+    background: rgba(85, 153, 6, 0.25);
+}
+
+.box{
+    width: 300px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%,-50%);
+    background: rgba(0, 0, 0, 0.919) ;
+    text-align: center;
+    border-radius: 14em;
+
+    box-shadow: 5px 5px 50px 50px rgb(255, 0, 0) ;
+    
+    animation: aniBg 5s linear infinite;
+}
+
+
+@keyframes aniBg {
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+
+.box input{
+    border: 0;
+    background: none;
+    display: block ;
+    margin: 20px auto;
+    text-align: center;
+
+    border: 3px solid rgb(0, 171, 245);
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+
+}
+.box input[type ="text"]:focus,.box input[type = "password"]:focus{
+    width: 280px;
+    border-color: green
+}
+
+.box input[type ="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 100%;
+    border: 3px solid green;
+    padding: 14px 40px;
+
+    outline: none;
+    color: white;
+
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor:pointer;
+
+    
+}
+
+.box input[type ="submit"]:hover{
+    background: none;
+    background: green;
+}

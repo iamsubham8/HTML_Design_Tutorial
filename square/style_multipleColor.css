@@ -1,0 +1,19 @@
+.Square{
+    /* background:linear-gradient(skyblue,pink,green,blue); */
+    
+    /* background:linear-gradient(green,blue); */
+    
+    /* background:linear-gradient(60deg,skyblue,pink,green,blue);
+     */
+     
+    /* background:linear-gradient(to left,skyblue,pink,green,blue);
+     */
+
+    background:linear-gradient(to right,skyblue,pink,green,blue);
+    
+    height: 300px;
+    width:  300px;
+    border-radius: 10px;
+    
+    border: 5px solid black;
+}

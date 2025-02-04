@@ -1,0 +1,17 @@
+
+#info{   
+    color: red;    
+}
+#contact{   
+    color: green;    
+}
+#collage{   
+    color: blue;    
+}
+#btn{
+
+    background-color: bisque;
+    position: absolute;
+    left: 10px;
+}
+

@@ -1,0 +1,22 @@
+.Square{
+    width: 600px;
+    height: 500px;
+    background-color: rebeccapurple;
+    animation: colors 2s infinite;
+
+}
+@keyframes colors {
+    0%{
+        background-color: red;
+    }
+    25%{
+        background-color: blueviolet;
+    }
+    50%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: green;
+    }
+    
+}

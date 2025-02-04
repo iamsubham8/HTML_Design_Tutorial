@@ -1,0 +1,15 @@
+H1{
+    text-align: center;
+  
+    background-image: url(gigbg.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: transparent;
+    background-clip:text;
+
+}
+#text{
+    background-position: center;
+    background-color: blueviolet;
+  
+}
